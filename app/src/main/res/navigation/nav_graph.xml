@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/lightFragment"
+        android:name="com.example.dz16androidnavigation.LightFragment"
+        android:label="fragment_red"
+        tools:layout="@layout/fragment_light">
+
+        <argument
+            android:name="text"
+            android:defaultValue="ApplicationAndroid"/>
+        <argument
+            android:name="backgroundColor"
+            app:argType="integer"
+            android:defaultValue="0"/>
+        <argument
+            android:name="textColor"
+            app:argType="integer"
+            android:defaultValue="0"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.dz16androidnavigation.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_lightFragment"
+            app:destination="@id/lightFragment" />
+    </fragment>
+</navigation>

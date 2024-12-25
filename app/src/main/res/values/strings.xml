@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DZ16AndroidNavigation</string>
+    <string name="infoStr">Информация о приложении</string>
+    <string name="exit">Выход из приложения</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="red">Красный</string>
+    <string name="yellow">Желтый</string>
+    <string name="green">Зеленый</string>
+    <string name="red_tv">Стой!</string>
+    <string name="yellow_tv">Внимание!</string>
+    <string name="green_tv">Движение разрешено!</string>
+</resources>
