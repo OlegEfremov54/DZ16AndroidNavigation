@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation.findNavController
+import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 
 import com.example.dz16androidnavigation.databinding.FragmentMainBinding
@@ -68,4 +69,3 @@ class MainFragment : Fragment() {
 
 }
 
-}
